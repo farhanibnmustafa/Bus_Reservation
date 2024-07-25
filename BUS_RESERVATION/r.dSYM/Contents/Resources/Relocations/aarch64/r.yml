@@ -1,0 +1,52 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/macbookpro/Desktop/newpro/BUS_RESERVATION/r'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _clearScreen, symObjAddr: 0x0, symBinAddr: 0x100001134, symSize: 0x1C }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _ADMIN_USERNAME, symObjAddr: 0x6C76, symBinAddr: 0x100007EE2, symSize: 0x0 }
+  - { offsetInCU: 0x73, offset: 0x73, size: 0x8, addend: 0x0, symName: _ADMIN_PASSWORD, symObjAddr: 0x6CD3, symBinAddr: 0x10000C000, symSize: 0x0 }
+  - { offsetInCU: 0x94, offset: 0x94, size: 0x8, addend: 0x0, symName: _SECURITY_QUESTION, symObjAddr: 0x6C7C, symBinAddr: 0x100007EE8, symSize: 0x0 }
+  - { offsetInCU: 0xB5, offset: 0xB5, size: 0x8, addend: 0x0, symName: _SECURITY_ANSWER, symObjAddr: 0x6C9B, symBinAddr: 0x100007F07, symSize: 0x0 }
+  - { offsetInCU: 0xCA, offset: 0xCA, size: 0x8, addend: 0x0, symName: _ch, symObjAddr: 0x6D05, symBinAddr: 0x10000C032, symSize: 0x0 }
+  - { offsetInCU: 0x10A, offset: 0x10A, size: 0x8, addend: 0x0, symName: _clearScreen, symObjAddr: 0x0, symBinAddr: 0x100001134, symSize: 0x1C }
+  - { offsetInCU: 0x11F, offset: 0x11F, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1C, symBinAddr: 0x100001150, symSize: 0x238 }
+  - { offsetInCU: 0x180, offset: 0x180, size: 0x8, addend: 0x0, symName: _travelerLogin, symObjAddr: 0x254, symBinAddr: 0x100001388, symSize: 0x2BC }
+  - { offsetInCU: 0x235, offset: 0x235, size: 0x8, addend: 0x0, symName: _travelerMenu, symObjAddr: 0x510, symBinAddr: 0x100001644, symSize: 0x2BC }
+  - { offsetInCU: 0x2CA, offset: 0x2CA, size: 0x8, addend: 0x0, symName: _travelerRegister, symObjAddr: 0x7E4, symBinAddr: 0x100001918, symSize: 0x2C }
+  - { offsetInCU: 0x2F0, offset: 0x2F0, size: 0x8, addend: 0x0, symName: _disableEcho, symObjAddr: 0x810, symBinAddr: 0x100001944, symSize: 0x7C }
+  - { offsetInCU: 0x314, offset: 0x314, size: 0x8, addend: 0x0, symName: _enableEcho, symObjAddr: 0x88C, symBinAddr: 0x1000019C0, symSize: 0x7C }
+  - { offsetInCU: 0x338, offset: 0x338, size: 0x8, addend: 0x0, symName: _adminLogin, symObjAddr: 0x908, symBinAddr: 0x100001A3C, symSize: 0x220 }
+  - { offsetInCU: 0x398, offset: 0x398, size: 0x8, addend: 0x0, symName: _resetAdminPassword, symObjAddr: 0xB28, symBinAddr: 0x100001C5C, symSize: 0x15C }
+  - { offsetInCU: 0x3CB, offset: 0x3CB, size: 0x8, addend: 0x0, symName: _writePasswordToFile, symObjAddr: 0xC84, symBinAddr: 0x100001DB8, symSize: 0x70 }
+  - { offsetInCU: 0x400, offset: 0x400, size: 0x8, addend: 0x0, symName: _readPasswordFromFile, symObjAddr: 0xCF4, symBinAddr: 0x100001E28, symSize: 0x74 }
+  - { offsetInCU: 0x426, offset: 0x426, size: 0x8, addend: 0x0, symName: _signoutAdmin, symObjAddr: 0xD68, symBinAddr: 0x100001E9C, symSize: 0x38 }
+  - { offsetInCU: 0x43C, offset: 0x43C, size: 0x8, addend: 0x0, symName: _adminMenu, symObjAddr: 0xDA0, symBinAddr: 0x100001ED4, symSize: 0x240 }
+  - { offsetInCU: 0x473, offset: 0x473, size: 0x8, addend: 0x0, symName: _bookingmanagement, symObjAddr: 0xFF8, symBinAddr: 0x10000212C, symSize: 0x21C }
+  - { offsetInCU: 0x508, offset: 0x508, size: 0x8, addend: 0x0, symName: _viewProfile, symObjAddr: 0x1214, symBinAddr: 0x100002348, symSize: 0x7C }
+  - { offsetInCU: 0x52F, offset: 0x52F, size: 0x8, addend: 0x0, symName: _updateProfile, symObjAddr: 0x1290, symBinAddr: 0x1000023C4, symSize: 0x9C }
+  - { offsetInCU: 0x555, offset: 0x555, size: 0x8, addend: 0x0, symName: _displaySecurityQuestions, symObjAddr: 0x132C, symBinAddr: 0x100002460, symSize: 0x40 }
+  - { offsetInCU: 0x56B, offset: 0x56B, size: 0x8, addend: 0x0, symName: _chooseSecurityQuestion, symObjAddr: 0x136C, symBinAddr: 0x1000024A0, symSize: 0x48 }
+  - { offsetInCU: 0x595, offset: 0x595, size: 0x8, addend: 0x0, symName: _readUserDetails, symObjAddr: 0x13B4, symBinAddr: 0x1000024E8, symSize: 0x218 }
+  - { offsetInCU: 0x5CA, offset: 0x5CA, size: 0x8, addend: 0x0, symName: _writeUserDetailsToFile, symObjAddr: 0x15CC, symBinAddr: 0x100002700, symSize: 0xBC }
+  - { offsetInCU: 0x5FF, offset: 0x5FF, size: 0x8, addend: 0x0, symName: _resetPassword, symObjAddr: 0x1688, symBinAddr: 0x1000027BC, symSize: 0x38C }
+  - { offsetInCU: 0x762, offset: 0x762, size: 0x8, addend: 0x0, symName: _searchBuses, symObjAddr: 0x1A14, symBinAddr: 0x100002B48, symSize: 0x10C }
+  - { offsetInCU: 0x7B6, offset: 0x7B6, size: 0x8, addend: 0x0, symName: _cancel_reservation, symObjAddr: 0x1B20, symBinAddr: 0x100002C54, symSize: 0x338 }
+  - { offsetInCU: 0x896, offset: 0x896, size: 0x8, addend: 0x0, symName: _displaybusroutestravelers, symObjAddr: 0x1E58, symBinAddr: 0x100002F8C, symSize: 0x370 }
+  - { offsetInCU: 0x9ED, offset: 0x9ED, size: 0x8, addend: 0x0, symName: _load_seat_data, symObjAddr: 0x21C8, symBinAddr: 0x1000032FC, symSize: 0x1D4 }
+  - { offsetInCU: 0xB04, offset: 0xB04, size: 0x8, addend: 0x0, symName: _displaySeatStatus, symObjAddr: 0x239C, symBinAddr: 0x1000034D0, symSize: 0x16C }
+  - { offsetInCU: 0xBB0, offset: 0xBB0, size: 0x8, addend: 0x0, symName: _make_reservation, symObjAddr: 0x2508, symBinAddr: 0x10000363C, symSize: 0x418 }
+  - { offsetInCU: 0xD2B, offset: 0xD2B, size: 0x8, addend: 0x0, symName: _save_seat_data, symObjAddr: 0x2920, symBinAddr: 0x100003A54, symSize: 0x2A4 }
+  - { offsetInCU: 0xE52, offset: 0xE52, size: 0x8, addend: 0x0, symName: _print_ticket, symObjAddr: 0x2BC4, symBinAddr: 0x100003CF8, symSize: 0x148 }
+  - { offsetInCU: 0xE96, offset: 0xE96, size: 0x8, addend: 0x0, symName: _processPayment, symObjAddr: 0x2D0C, symBinAddr: 0x100003E40, symSize: 0xB4 }
+  - { offsetInCU: 0xEE8, offset: 0xEE8, size: 0x8, addend: 0x0, symName: _view_booking_details, symObjAddr: 0x2DC0, symBinAddr: 0x100003EF4, symSize: 0x70 }
+  - { offsetInCU: 0xF0F, offset: 0xF0F, size: 0x8, addend: 0x0, symName: _initializeSeats, symObjAddr: 0x2E30, symBinAddr: 0x100003F64, symSize: 0x7C }
+  - { offsetInCU: 0xF61, offset: 0xF61, size: 0x8, addend: 0x0, symName: _signoutTravelers, symObjAddr: 0x2EAC, symBinAddr: 0x100003FE0, symSize: 0x12C }
+  - { offsetInCU: 0xF96, offset: 0xF96, size: 0x8, addend: 0x0, symName: _updateSeatStatus, symObjAddr: 0x2FD8, symBinAddr: 0x10000410C, symSize: 0x3AC }
+  - { offsetInCU: 0x10AD, offset: 0x10AD, size: 0x8, addend: 0x0, symName: _seatmanagement, symObjAddr: 0x3384, symBinAddr: 0x1000044B8, symSize: 0x310 }
+  - { offsetInCU: 0x11B0, offset: 0x11B0, size: 0x8, addend: 0x0, symName: _busroutemanagement, symObjAddr: 0x3694, symBinAddr: 0x1000047C8, symSize: 0x100 }
+  - { offsetInCU: 0x11D6, offset: 0x11D6, size: 0x8, addend: 0x0, symName: _clearInputBuffer, symObjAddr: 0x37A8, symBinAddr: 0x1000048DC, symSize: 0x60 }
+  - { offsetInCU: 0x11FC, offset: 0x11FC, size: 0x8, addend: 0x0, symName: _displayBusRoutes, symObjAddr: 0x3808, symBinAddr: 0x10000493C, symSize: 0x350 }
+  - { offsetInCU: 0x1287, offset: 0x1287, size: 0x8, addend: 0x0, symName: _AddBusRoute, symObjAddr: 0x3B58, symBinAddr: 0x100004C8C, symSize: 0x20C }
+  - { offsetInCU: 0x12BE, offset: 0x12BE, size: 0x8, addend: 0x0, symName: _UpdateBusRoute, symObjAddr: 0x3D64, symBinAddr: 0x100004E98, symSize: 0x55C }
+  - { offsetInCU: 0x1365, offset: 0x1365, size: 0x8, addend: 0x0, symName: _DeleteBusRoute, symObjAddr: 0x42C0, symBinAddr: 0x1000053F4, symSize: 0x370 }
+...
